@@ -53,7 +53,7 @@ translate spanish strings:
     old "Integrated | Change accessories"
     new "Integrado | Cambiar accesorios"
     old "Integrated | Change BGM {size=-5}* Support {a=https://github.com/MAS-Submod-MoyuTeam/NeteaseInMas}{i}Netease Music{/i}{/a} and {a=https://github.com/Booplicate/MAS-Submods-YouTubeMusic}{i}Youtube Music{/i}{/a}"
-    new "Integrated | Change BGM {size=-5}* Support {a=https://github.com/MAS-Submod-MoyuTeam/NeteaseInMas}{i}Netease Music{/i}{/a} and {a=https://github.com/Booplicate/MAS-Submods-YouTubeMusic}{i}Youtube Music{/i}{/a}"
+    new "Integrado | Cambiar BGM {size=-5}* Soporta {a=https://github.com/MAS-Submod-MoyuTeam/NeteaseInMas}{i}Netease Music{/i}{/a} y {a=https://github.com/Booplicate/MAS-Submods-YouTubeMusic}{i}Youtube Music{/i}{/a}"
     old "Integrated | Take [m_name] out"
     new "Integrado | Llevar a [m_name] a salir"
 # TODO: Translation updated at 2025-09-23 23:29
@@ -86,7 +86,7 @@ translate spanish strings:
 translate spanish strings:
 
     old "Integrated | Wear or remove accessories"
-    new "Integrated | Wear or remove accessories"
+    new "Integrado | Ponerse o quitarse accesorios"
 
     old "Integrated | Memory writing"
-    new "Integrated | Memory writing"
+    new "Integrado | Escritura de memoria"

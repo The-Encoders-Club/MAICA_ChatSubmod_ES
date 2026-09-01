@@ -32,9 +32,9 @@ translate spanish strings:
     old "MAICA: Advanced settings saved"
     new "MAICA: Ajustes avanzados guardados"
     old "Discard changes"
-    new "Discard changes"
+    new "Descartar cambios"
     old "MAICA: Advanced setting changes discarded"
-    new "MAICA: Advanced setting changes discarded"
+    new "MAICA: Los cambios en la configuración avanzada se han descartado"
     # game/Submods/MAICA_ChatSubmod/screen_subs.rpy:372
     old "MAICA: Advanced settings reset"
     new "MAICA: Configuración avanzada restablecida"
@@ -43,7 +43,7 @@ translate spanish strings:
     new "MAICA: Configuración avanzada restablecida (valores por defecto)"
     # game/Submods/MAICA_ChatSubmod/screen_subs.rpy:386
     old "Game language default"
-    new "Game language default"
+    new "Idioma del juego"
     old "zh | Chinese simplified"
     new "zh | Chino simplificado"
     # game/Submods/MAICA_ChatSubmod/screen_subs.rpy:389
@@ -227,25 +227,25 @@ translate spanish strings:
     new "Este mensaje se ocultará automáticamente en [countdown] segundos..."
     # game/Submods/MAICA_ChatSubmod/screen_subs.rpy:361
     old "Disable MFocus sequential toolchain to save time.\n+ Saves time for most toolcalls, lowers TTFT\n- Risk of missing information\n- Will neutralize mf_llm_concl"
-    new "Disable MFocus sequential toolchain to save time.\n+ Saves time for most toolcalls, lowers TTFT\n- Risk of missing information\n- Will neutralize mf_llm_concl"
+    new "Desactivar la cadena de herramientas de MFocus para ahorrar tiempo.\n+ Ahorra tiempo en la mayoría de las llamadas a herramientas, reduce el tiempo hasta la primera respuesta\n- Riesgo de omitir información\n- Neutralizará mf_llm_concl"
     # game/Submods/MAICA_ChatSubmod/screen_subs.rpy:369
     old "Disable the MTrigger toolchain loop to save time.\n+ Saves time for most trigger calls\n- May miss calls"
-    new "Disable the MTrigger toolchain loop to save time.\n+ Saves time for most trigger calls\n- May miss calls"
+    new "Desactivar el bucle de la cadena de herramientas de MTrigger para ahorrar tiempo.\n+ Ahorra tiempo en la mayoría de las llamadas a triggers\n- Puede omitir llamadas"
 # TODO: Translation updated at 2025-12-19 17:00
 
 translate spanish strings:
 
     # game/Submods/MAICA_ChatSubmod/screen_subs.rpy:378
     old "Experimental: enforce the target output language through LLM guided decoding (guided_regex).\n* At the time of writing, this is only effective for target language en\n* Regex guidance support varies by decoding backend and may fail or behave incorrectly\n* Enabling this may affect model behavior or cause other unexpected issues"
-    new "Experimental: enforce the target output language through LLM guided decoding (guided_regex).\n* At the time of writing, this is only effective for target language en\n* Regex guidance support varies by decoding backend and may fail or behave incorrectly\n* Enabling this may affect model behavior or cause other unexpected issues"
+    new "Experimental: forzar el idioma de salida objetivo mediante decodificación guiada por LLM (guided_regex).\n* En el momento de escribir esto, solo es efectivo para el idioma de salida en\n* El soporte de guiado por regex varía según el backend de decodificación y puede fallar o comportarse de forma incorrecta\n* Habilitar esto puede afectar el comportamiento del modelo o causar otros problemas inesperados"
     old "Experimental: allow model to generate [[player_nickname] placeholder in prompts.\n+ Fits MAS-style better\n- Requires additional frontend handling\n- May cause unexpected issues"
-    new "Experimental: allow model to generate [[player_nickname] placeholder in prompts.\n+ Fits MAS-style better\n- Requires additional frontend handling\n- May cause unexpected issues"
+    new "Experimental: permite que el modelo genere el placeholder [[player_nickname] en los prompts.\n+ Se adapta mejor al estilo MAS\n- Requiere manejo adicional del frontend\n- Puede causar problemas inesperados"
     old "Experimental: implementation of possibly faster savefile access, replacing traditional MFocus implementation.\n* 0: (Traditional) LLM-only implementation\n* 1: RAG + reranker implementation\n* 2: RAG-only implementation\n+ Could be a lot, lot faster\n+ mf_const_sf_access can be enabled only if this is nonzero\n- RAG-only mode does not search from per-query savefile\n- Significantly less precise than traditional implementation, demanding core model's distraction resistance\n- Falls back to 0 if backend does not implement optional requirements"
-    new "Experimental: implementation of possibly faster savefile access, replacing traditional MFocus implementation.\n* 0: (Traditional) LLM-only implementation\n* 1: RAG + reranker implementation\n* 2: RAG-only implementation\n+ Could be a lot, lot faster\n+ mf_const_sf_access can be enabled only if this is nonzero\n- RAG-only mode does not search from per-query savefile\n- Significantly less precise than traditional implementation, demanding core model's distraction resistance\n- Falls back to 0 if backend does not implement optional requirements"
+    new "Experimental: implementación de acceso al archivo de guardado posiblemente más rápido, reemplazando la implementación tradicional de MFocus.\n* 0: (Tradicional) Implementación solo con LLM\n* 1: Implementación RAG + reranker\n* 2: Implementación solo con RAG\n+ Podría ser mucho, mucho más rápido\n+ mf_const_sf_access solo se puede habilitar si esto es distinto de cero\n- El modo solo RAG no busca en el archivo de guardado por consulta\n- Significativamente menos preciso que la implementación tradicional, exigiendo resistencia a la distracción del modelo principal\n- Vuelve a 0 si el backend no implementa los requisitos opcionales"
     old "Experimental: provide extracted information even when MFocus does not call savefile access.\n* 0: (Traditional) MFocus tool only\n* 1: Pre-retrieval + tool\n* 2: Pre-retrieval only\n+ Significantly increases interventionality of savefile data\n- Can introduce distractions and demands core model's distraction resistance\n- Just wasting time in more than half cases"
-    new "Experimental: provide extracted information even when MFocus does not call savefile access.\n* 0: (Traditional) MFocus tool only\n* 1: Pre-retrieval + tool\n* 2: Pre-retrieval only\n+ Significantly increases interventionality of savefile data\n- Can introduce distractions and demands core model's distraction resistance\n- Just wasting time in more than half cases"
+    new "Experimental: proporciona información extraída incluso cuando MFocus no llama al acceso al archivo de guardado.\n* 0: (Tradicional) Solo herramienta MFocus\n* 1: Pre-recuperación + herramienta\n* 2: Solo pre-recuperación\n+ Aumenta significativamente la interventionalidad de los datos del archivo de guardado\n- Puede introducir distracciones y exige resistencia a la distracción del modelo principal\n- Solo pierde el tiempo en más de la mitad de los casos"
     old "Experimental: generate memory summary when session trimmed or cleared to preserve information.\n* 0: Disabled\n* 1: Rotate on trimming only\n* 2: Rotate on both trimming and clearing\n+ Generates conclusion for rounds leaving context window, as short-term memory\n- Operations triggering summarizing could be much slower\n- May cause distraction and demands core model's distraction resistance"
-    new "Experimental: generate memory summary when session trimmed or cleared to preserve information.\n* 0: Disabled\n* 1: Rotate on trimming only\n* 2: Rotate on both trimming and clearing\n+ Generates conclusion for rounds leaving context window, as short-term memory\n- Operations triggering summarizing could be much slower\n- May cause distraction and demands core model's distraction resistance"
+    new "Experimental: genera un resumen de la memoria cuando la sesión se recorta o borra para preservar la información.\n* 0: Deshabilitado\n* 1: Rotar solo al recortar\n* 2: Rotar al recortar y borrar\n+ Genera una conclusión para las rondas que salen de la ventana de contexto, como memoria a corto plazo\n- Las operaciones que desencadenan el resumen podrían ser mucho más lentas\n- Puede causar distracción y exige resistencia a la distracción del modelo principal"
     # game/Submods/MAICA_ChatSubmod/screen_subs.rpy:1252
     old "Input language warning"
     new "Advertencia de idioma de entrada"
@@ -259,13 +259,13 @@ translate spanish strings:
     old "Language mismatch could impact performance or lead to unexpected issues, please avoid mismatched input or session context.\nIf you want to force proceed, please disable 'Input language detection' in settings."
     new "Un conflicto de idiomas puede reducir el rendimiento de la IA o causar problemas inesperados. Evita usar un idioma diferente o cambiarlo a mitad de la conversación.\nSi aun así deseas continuar, desactiva la 'Detección de idioma de entrada' en los ajustes."
     old "Behavior preset"
-    new "Behavior preset"
+    new "Ajuste preestablecido de comportamiento"
     old "Hyperparameter preset"
-    new "Hyperparameter preset"
+    new "Ajuste preestablecido de hiperparámetros"
 translate spanish strings:
 
     old "Coordinates unavailable"
-    new "Coordinates unavailable"
+    new "Coordenadas no disponibles"
 
     old "Latitude: {0}\nLongitude: {1}"
-    new "Latitude: {0}\nLongitude: {1}"
+    new "Latitud: {0}\nLongitud: {1}"

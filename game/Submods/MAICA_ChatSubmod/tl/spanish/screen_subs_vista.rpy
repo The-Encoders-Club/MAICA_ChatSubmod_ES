@@ -21,7 +21,7 @@ translate spanish strings:
     old "Image file does not exist: [img_path]"
     new "El archivo de imagen no existe: [img_path]"
     old "Image preview unavailable"
-    new "Image preview unavailable"
+    new "Vista previa de la imagen no disponible"
     # game/Submods/MAICA_ChatSubmod/screen_subs_vista.rpy:147
     old "! MVista not unlocked"
     new "¡MVista aún no está desbloqueado!"

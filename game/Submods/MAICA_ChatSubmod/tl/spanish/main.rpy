@@ -34,9 +34,9 @@ translate spanish strings:
 translate spanish strings:
 
     old "Failed replying mail, check submod_log.log for details\nError code: [ai.status] | [ai.MaicaAiStatus.get_description(ai.status)]"
-    new "Error al responder carta, revisa submod_log.log para más detalles\nCódigo de error: [ai.status] | [ai.MaicaAiStatus.get_description(ai.status)]"
+    new "Error al responder la carta, revisa submod_log.log para más detalles\nCódigo de error: [ai.status] | [ai.MaicaAiStatus.get_description(ai.status)]"
     old "Failed replying mail. Not retrying because failure count limit reached"
-    new "Error al responder carta. Se alcanzó el límite máximo de intentos"
+    new "Error al responder la carta. Se alcanzó el límite máximo de intentos"
 
 translate spanish strings:
 
@@ -44,6 +44,6 @@ translate spanish strings:
     new "Hmm... ¿continuamos con este tema?{fast}"
 
     old "MAICA: Connection failed: "
-    new "MAICA: Connection failed: "
+    new "MAICA: Conexión fallida: "
     old "MAICA: Connection established"
-    new "MAICA: Connection established"
+    new "MAICA: Conexión establecida"
